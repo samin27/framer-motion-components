@@ -14,7 +14,7 @@ export default function ProgressBar() {
             }
             transition={
                 {
-                    duration: 10,
+                    duration: 5,
                 }
             }
             className="w-1/12 h-full bg-purple-800">
