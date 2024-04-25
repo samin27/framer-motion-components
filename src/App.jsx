@@ -3,6 +3,7 @@ import './App.css'
 import DragControls from './framer-components/DragControls'
 import DragRef from './framer-components/DragRef'
 import DraggableDiv from './framer-components/DraggableDiv'
+import EmojisAnimation from './framer-components/EmojisAnimation'
 import ExitAndEnterAnimation from './framer-components/ExitAndEnterAnimation'
 import GestureButton from './framer-components/GestureButton'
 import KeyFrames from './framer-components/KeyFrames'
@@ -23,7 +24,8 @@ function App() {
       {/* <GestureButton/> */}
       {/* <DraggableDiv/> */}
       {/* <DragRef/> */}
-      <DragControls/>
+      {/* <DragControls/> */}
+      <EmojisAnimation/>
     </div>
     </>
   )
